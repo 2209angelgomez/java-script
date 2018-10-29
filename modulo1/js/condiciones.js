@@ -14,7 +14,7 @@ else{
     console.log("los numeros son iguales");
 }
 
-
+hola
 
 /**ingresar por pantalla la edad de una persona, si la èrona es mayor de 18 indicar que es mayor de 
  * edad de lo contrario es menor de edad, si tiene la edad menor o ighual a 33 escribir eres milenial 
