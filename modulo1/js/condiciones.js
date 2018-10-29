@@ -21,6 +21,11 @@ else{
  * si mayor p igaul a 70 eres un anciano, si es mayor o igualñ a 33 ya no eres un melinial*/
 
  var edad=prompt("ingrese una edad");
+
+function calcularEdad(edad){
+
+
+
  if (edad<=17){
      console.log("es menor de edad");
  }
@@ -40,3 +45,11 @@ else if (edad>=70){
 else if(edad>=33){
     console.log("ya no eres un milenial")
 }
+}
+debugger;
+calcularEdad(edad);
+calcularEdad(23);
+calcularEdad(89);
+calcularEdad8(15);
+calcularEdad(67);
+
