@@ -3,9 +3,9 @@
 var nombre = prompt("Ingrese su nombre");
 console.log("Este es mi nombre", nombre);
 alert(nombre);
-var edad= prompt("Ingrese su edad");
-console.log("Esta es mi edad", edad);
-alert(edad);
+var edada= prompt("Ingrese su edad");
+console.log("Esta es mi edad", edada);
+alert(edada);
 
 //**variables numèricas */
 var num = 5;
@@ -53,3 +53,27 @@ if(true){
     console.log("cantidad dentro del if", cantidad);
 }
 console.log("cantidad fuera del if", cantidad)
+
+
+/**constantes */
+const edad;
+edad = 20;
+console.log("edad cons", edad)
+
+/**concatenacion de variables */
+var anio=2018;
+var promedio ="25";
+console.log("la concatenacion de"+anio+"y"+promedio+"es", anio+Number (promedio));
+let numero1=25;
+let numero2=40;
+console.log("la concatenacion es", String (numero1)+ String (numero2));
+
+
+/**ventanas */
+/**alertas */
+alert("la contatenacion es" + String (numero1) + String(numero2));
+/**prom*/
+var modelo= prompt ("el modelo del carro es", 0);
+/**confirmar */
+var conf= confirm ("desea salir de la aplicaciòn?");
+console.log("confirmación ", conf)
