@@ -18,7 +18,7 @@ hola
 
 /**ingresar por pantalla la edad de una persona, si la èrona es mayor de 18 indicar que es mayor de 
  * edad de lo contrario es menor de edad, si tiene la edad menor o ighual a 33 escribir eres milenial 
- * si mayor p igaul a 70 eres un anciano, si es mayor o igualñ a 33 ya no eres un melinial*/
+ * si mayor p igaul a 70 eres un anciano, si es mayor o igualñ a 33 ya no eres un melinial
 
  var edad=prompt("ingrese una edad");
 
@@ -84,4 +84,38 @@ else{
 }
 
 var result= a==b? 10 : 20;
-console.log.(result)
+console.log(result);
+
+
+var year=prompt("Escriba un año");
+var resultado = year != 2018? true : false;
+console.log(resultado)
+
+
+
+
+/**Switch */
+
+var day=prompt("Introduzca un dìa de la semana");
+function setDay(day){
+switch (day){
+    case "sabado":
+    console.log("voy a ir al cine");
+    break;
+
+    case "domingo":
+    console.log("voy hacer deporte");
+    break;
+
+    case "lunes":
+    console.log("voy a trabajar");
+    break;
+
+    default:
+    Console.log(" no es un dia vàlido");
+}
+}
+
+setDay(day);
+setDay("domingo");
+setDay(13);
