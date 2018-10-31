@@ -54,3 +54,34 @@ calcularEdad8(15);
 calcularEdad(67);
 
 
+/**operadores de compración */
+
+var a=5;
+var b=5;
+if (a==b){
+    console.log("A es igual a B ")
+}
+if (a===b){
+    console.log("A y B son iguales en signo y en valor")
+}
+
+else {
+    console.log("No son iguales en signo y valor")
+}
+
+
+
+/**operador ternario */
+
+var aux=0;
+if (a==b){
+    aux=5;
+    console.log(aux);
+}
+else{
+    aux=10;
+    console.log(aux)
+}
+
+var result= a==b? 10 : 20;
+console.log.(result)
